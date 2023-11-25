@@ -1,0 +1,45 @@
+.sidebar-container {
+    padding: var(--x5);
+    background-color: var(---blue4);
+}
+
+.logo {
+    height: 50px
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.sidemenu {
+    padding: var(--x4) 0 0 var(--x1);
+    display: flex;
+    flex-direction: column;
+}
+
+.sidemenu .menu-item {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: var(--x1p2);
+    padding: var(--x2) 100px var(--x2) var(--x2);
+    position: relative;
+    border-radius: var(--radius0);
+    cursor: pointer;
+
+}
+
+.sidemenu .menu-item:hover {
+    background-color: var(--blue2);
+}
+
+.icon {
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+
+

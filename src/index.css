@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+   /* colors */
+   --blue1: #4d5875;
+   --blue2: #344064;
+   --blue3: #03123d;
+   --blue4: #03123b;
+   --pink1: #cb1a80;
+   --white1: #fff;
+   --white2: #fafafb;
+
+   /* font size */
+   --font0: 10px;
+   --font0p5: 12px;
+   --font1: 14px;
+   --font2: 16px;
+   --font3: 18px;
+   --font4: 20px;
+   --font5: 24px;
+
+   /* font weight */
+   --regular: 400;
+   --dense: 500;
+   --bold: 600;
+   --bolder: 700;
+
+   /* spacing */
+   --px: 4px;
+   --x1: 8px;
+   --x1p2: 12px;
+   --x2: 16px;
+   --x2p5: 20px;
+   --x3: 24px;
+   --x4: 32px;
+   --x5: 40px;
+   --x6: 48px;
+   --x7: 56px;
+   --x8: 64px;
+
+   /* radius */
+   --radius0: 4px;
+   --radius1: 8px;
+   --radius2: 12px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: Poppins;
+   background-color: var(--blue3);
+   color: var(--white1);
+}
+
+input {
+   font-family: Poppins;
 }

@@ -1,0 +1,36 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero-section {
+    width: 50%;
+    background-color: var(--white2);
+    padding: var(--x4) var(--x3);
+    border-radius: var(--radius2);
+}
+
+.img-container {
+    width: 100%;
+}
+
+.hero-img {
+    width: 100%;
+    border-radius: var(--radius2);
+    height: 120%;
+    object-fit: cover;
+}
+
+.hero-title {
+    color: var(--blue1);
+    font-size: var(--font5);
+    font-weight: var(--bold);
+    width: 20ch;
+}
+
+.hero-desc {
+    color: var(--blue1);
+    font-size: var(--font2);
+}

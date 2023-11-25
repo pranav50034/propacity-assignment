@@ -1,0 +1,20 @@
+.view-tile-container , .grid, .list {
+    display: flex;
+}
+
+.view-tile-container {
+    border: 1px solid var(--white1);
+    cursor: pointer;
+    border-radius: var(--radius1);
+}
+
+.grid {
+    border-right: .5px solid var(--white1);
+    padding: var(--px);
+}
+
+.list {
+    border-left: .5px solid var(--white1);
+    padding: var(--px);
+
+}

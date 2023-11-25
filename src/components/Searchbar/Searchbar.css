@@ -1,0 +1,23 @@
+.search-bar-container {
+    position: relative;
+}
+
+.search-bar {
+    background-color: transparent;
+    border: 1px solid var(--white1);
+    padding: var(--x1) var(--x5);
+    width: 300px;
+    border-radius: var(--radius0);
+    color: var(--white1)
+}
+
+.search-bar::placeholder {
+    color: var(--white2)
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}

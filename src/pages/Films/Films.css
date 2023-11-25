@@ -1,0 +1,122 @@
+.films {
+    width: 100%;
+    padding: var(--x2) var(--x5);
+}
+
+.films-container {
+    padding: var(--x3) 0;
+}
+
+.search-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: var(--x4);
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-title {
+    font-size: var(--font5);
+}
+
+.grid-view {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid-view .film-container {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: var(--x1);
+    margin-bottom: var(--x4);
+}
+
+.grid-view .img-container {
+    width: 100%;
+    background-color: var(--white2);
+    height: 180px;
+    border-radius: var(--radius2);
+}
+
+.grid-view .name-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--blue2);
+    padding: var(--x1p2) var(--x3);
+    border-radius: var(--radius2);
+}
+
+.grid-view .left {
+    display: flex;
+    align-items: center;
+    gap: var(--x2);
+}
+
+.grid-view .right {
+    display: flex;
+    align-items: center;
+    padding: var(--x1);
+    border-radius: var(--radius1);
+}
+
+.grid-view .right:hover {
+    background-color: var(--blue1);
+}
+
+.list-view table {
+    width: 100%;
+    text-align: left;
+    border-spacing: 0;
+}
+
+.list-view table thead {
+    width: 100%;
+    background-color: var(--blue1);
+}
+
+.list-view table th {
+    padding: var(--x2) var(--x3);
+    font-weight: var(--regular);
+}
+
+.list-view tbody {
+    border-spacing: 2;
+}
+
+.list-view tbody .bordered {
+    border-bottom: 1px solid var(--blue1);
+}
+
+.list-view table td {
+    padding: var(--x2) var(--x3);
+}
+
+.list-view table .name{
+    width: 40%
+}
+
+.list-view table .director{
+    width: 25%
+}
+
+.list-view table .release{
+    width: 25%
+}
+
+.list-view table tbody tr {
+    border-bottom: 1px solid var(--blue2);
+}
+
+.list-view table tbody tr:last-child {
+    border-bottom: none;
+}

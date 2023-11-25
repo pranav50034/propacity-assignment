@@ -1,0 +1,47 @@
+.grid-view {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid-view .film-container {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    gap: var(--x1);
+    margin-bottom: var(--x4);
+}
+
+.grid-view .img-container {
+    width: 100%;
+    background-color: var(--white2);
+    height: 180px;
+    border-radius: var(--radius2);
+}
+
+.grid-view .name-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--blue2);
+    padding: var(--x1p2) var(--x3);
+    border-radius: var(--radius2);
+}
+
+.grid-view .left {
+    display: flex;
+    align-items: center;
+    gap: var(--x2);
+}
+
+.grid-view .right {
+    display: flex;
+    align-items: center;
+    padding: var(--x1);
+    border-radius: var(--radius1);
+}
+
+.grid-view .right:hover {
+    background-color: var(--blue1);
+}
